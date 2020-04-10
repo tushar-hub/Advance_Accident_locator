@@ -5,6 +5,8 @@ import cv2
 
 model = load_model("accident_model2.h5")
 
+
+
 def Calculate_problilty(filename):
     print("Running...")
     cam = cv2.VideoCapture(filename)
